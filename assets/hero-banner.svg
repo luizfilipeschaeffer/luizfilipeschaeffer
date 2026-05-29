@@ -24,7 +24,7 @@
       <tspan fill="#f8fafc">Luiz Filipe </tspan>
       <tspan fill="url(#nameGrad)">Schaeffer</tspan>
     </text>
-    <text x="400" y="118" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="14">Desenvolvedor Mobile Flutter | Analista de Suporte | Fullstack</text>
+    <text x="400" y="118" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="14">Desenvolvedor Mobile Flutter | Next.js &amp; PostgreSQL | Infra &amp; Redes</text>
     <text x="400" y="142" text-anchor="middle" fill="#64748b" font-family="Segoe UI, system-ui, sans-serif" font-size="12">Criciuma, Santa Catarina - Brasil</text>
     <g font-family="Consolas, monospace" font-size="11" fill="#e2e8f0">
       <rect x="248" y="162" width="78" height="24" rx="6" fill="#ffffff14" stroke="#ffffff20"/>
@@ -33,8 +33,8 @@
       <text x="368" y="178" text-anchor="middle">&lt;HTML/&gt;</text>
       <rect x="410" y="162" width="62" height="24" rx="6" fill="#ffffff14" stroke="#ffffff20"/>
       <text x="441" y="178" text-anchor="middle">&lt;CSS/&gt;</text>
-      <rect x="480" y="162" width="72" height="24" rx="6" fill="#ffffff14" stroke="#ffffff20"/>
-      <text x="516" y="178" text-anchor="middle">&lt;React/&gt;</text>
+      <rect x="480" y="162" width="82" height="24" rx="6" fill="#ffffff14" stroke="#ffffff20"/>
+      <text x="521" y="178" text-anchor="middle">&lt;Next.js/&gt;</text>
     </g>
   </g>
 </svg>

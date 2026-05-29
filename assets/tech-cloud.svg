@@ -1,35 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="130" viewBox="0 0 800 130" role="img" aria-label="Tech Stack">
-  <rect width="800" height="130" rx="16" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="36" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="700">Tech Stack</text>
-  <!-- chips row 1 -->
-  <rect x="24" y="52" width="88" height="28" rx="14" fill="#0277bd26" stroke="#0277bd"/>
-  <text x="68" y="70" text-anchor="middle" fill="#4fc3f7" font-family="Consolas, monospace" font-size="11">Flutter</text>
-  <rect x="120" y="52" width="68" height="28" rx="14" fill="#00b4d826" stroke="#00b4d8"/>
-  <text x="154" y="70" text-anchor="middle" fill="#90e0ef" font-family="Consolas, monospace" font-size="11">Dart</text>
-  <rect x="196" y="52" width="78" height="28" rx="14" fill="#e34c2626" stroke="#e34c26"/>
-  <text x="235" y="70" text-anchor="middle" fill="#f06529" font-family="Consolas, monospace" font-size="11">HTML5</text>
-  <rect x="282" y="52" width="68" height="28" rx="14" fill="#264de426" stroke="#264de4"/>
-  <text x="316" y="70" text-anchor="middle" fill="#5383ec" font-family="Consolas, monospace" font-size="11">CSS3</text>
-  <rect x="358" y="52" width="98" height="28" rx="14" fill="#f7df1e20" stroke="#f7df1e"/>
-  <text x="407" y="70" text-anchor="middle" fill="#f0db4f" font-family="Consolas, monospace" font-size="11">JavaScript</text>
-  <rect x="464" y="52" width="72" height="28" rx="14" fill="#61dafb20" stroke="#61dafb"/>
-  <text x="500" y="70" text-anchor="middle" fill="#61dafb" font-family="Consolas, monospace" font-size="11">React</text>
-  <rect x="544" y="52" width="78" height="28" rx="14" fill="#33993326" stroke="#339933"/>
-  <text x="583" y="70" text-anchor="middle" fill="#6fcf6f" font-family="Consolas, monospace" font-size="11">Node.js</text>
-  <!-- chips row 2 -->
-  <rect x="24" y="88" width="68" height="28" rx="14" fill="#ff990020" stroke="#ff9900"/>
-  <text x="58" y="106" text-anchor="middle" fill="#ffb84d" font-family="Consolas, monospace" font-size="11">AWS</text>
-  <rect x="100" y="88" width="88" height="28" rx="14" fill="#ffca2820" stroke="#ffca28"/>
-  <text x="144" y="106" text-anchor="middle" fill="#ffd54f" font-family="Consolas, monospace" font-size="11">Firebase</text>
-  <rect x="196" y="88" width="72" height="28" rx="14" fill="#00808026" stroke="#008080"/>
-  <text x="232" y="106" text-anchor="middle" fill="#4db6ac" font-family="Consolas, monospace" font-size="11">SQLite</text>
-  <rect x="276" y="88" width="78" height="28" rx="14" fill="#2496ed26" stroke="#2496ed"/>
-  <text x="315" y="106" text-anchor="middle" fill="#64b5f6" font-family="Consolas, monospace" font-size="11">Docker</text>
-  <rect x="362" y="88" width="58" height="28" rx="14" fill="#f0503320" stroke="#f05033"/>
-  <text x="391" y="106" text-anchor="middle" fill="#ff8a65" font-family="Consolas, monospace" font-size="11">Git</text>
-  <rect x="428" y="88" width="78" height="28" rx="14" fill="#3178c626" stroke="#3178c6"/>
-  <text x="467" y="106" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="11">Next.js</text>
-  <rect x="514" y="88" width="58" height="28" rx="14" fill="#3178c626" stroke="#3178c6"/>
-  <text x="543" y="106" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="11">TS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-label="Tech Stack">
+  <rect width="800" height="200" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="28" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="700">Tech Stack</text>
+  <text x="24" y="46" fill="#8b949e" font-family="Segoe UI, system-ui, sans-serif" font-size="11">Dev � Dados � Infra � Redes � Seguranca</text>
+  <!-- row 1 -->
+  <rect x="24" y="58" width="88" height="26" rx="13" fill="#0277bd26" stroke="#0277bd"/>
+  <text x="68" y="75" text-anchor="middle" fill="#4fc3f7" font-family="Consolas, monospace" font-size="10">Flutter</text>
+  <rect x="120" y="58" width="68" height="26" rx="13" fill="#00b4d826" stroke="#00b4d8"/>
+  <text x="154" y="75" text-anchor="middle" fill="#90e0ef" font-family="Consolas, monospace" font-size="10">Dart</text>
+  <rect x="196" y="58" width="72" height="26" rx="13" fill="#61dafb20" stroke="#61dafb"/>
+  <text x="232" y="75" text-anchor="middle" fill="#61dafb" font-family="Consolas, monospace" font-size="10">React</text>
+  <rect x="276" y="58" width="78" height="26" rx="13" fill="#ffffff18" stroke="#cccccc"/>
+  <text x="315" y="75" text-anchor="middle" fill="#e2e8f0" font-family="Consolas, monospace" font-size="10">Next.js</text>
+  <rect x="362" y="58" width="78" height="26" rx="13" fill="#33993326" stroke="#339933"/>
+  <text x="401" y="75" text-anchor="middle" fill="#6fcf6f" font-family="Consolas, monospace" font-size="10">Node.js</text>
+  <rect x="448" y="58" width="98" height="26" rx="13" fill="#33679126" stroke="#336791"/>
+  <text x="497" y="75" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="10">PostgreSQL</text>
+  <rect x="554" y="58" width="88" height="26" rx="13" fill="#ffca2820" stroke="#ffca28"/>
+  <text x="598" y="75" text-anchor="middle" fill="#ffd54f" font-family="Consolas, monospace" font-size="10">Firebase</text>
+  <rect x="650" y="58" width="68" height="26" rx="13" fill="#ff990020" stroke="#ff9900"/>
+  <text x="684" y="75" text-anchor="middle" fill="#ffb84d" font-family="Consolas, monospace" font-size="10">AWS</text>
+  <!-- row 2 -->
+  <rect x="24" y="92" width="72" height="26" rx="13" fill="#2496ed26" stroke="#2496ed"/>
+  <text x="60" y="109" text-anchor="middle" fill="#64b5f6" font-family="Consolas, monospace" font-size="10">Docker</text>
+  <rect x="104" y="92" width="58" height="26" rx="13" fill="#f0503320" stroke="#f05033"/>
+  <text x="133" y="109" text-anchor="middle" fill="#ff8a65" font-family="Consolas, monospace" font-size="10">Git</text>
+  <rect x="170" y="92" width="58" height="26" rx="13" fill="#3178c626" stroke="#3178c6"/>
+  <text x="199" y="109" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="10">TS</text>
+  <rect x="236" y="92" width="108" height="26" rx="13" fill="#0078d426" stroke="#0078d4"/>
+  <text x="290" y="109" text-anchor="middle" fill="#4fc3f7" font-family="Consolas, monospace" font-size="10">Windows Server</text>
+  <rect x="352" y="92" width="118" height="26" rx="13" fill="#0078d426" stroke="#0078d4"/>
+  <text x="411" y="109" text-anchor="middle" fill="#4fc3f7" font-family="Consolas, monospace" font-size="10">Active Directory</text>
+  <rect x="478" y="92" width="98" height="26" rx="13" fill="#60707826" stroke="#607078"/>
+  <text x="527" y="109" text-anchor="middle" fill="#b0bec5" font-family="Consolas, monospace" font-size="10">Virtualizacao</text>
+  <rect x="584" y="92" width="68" height="26" rx="13" fill="#00808026" stroke="#008080"/>
+  <text x="618" y="109" text-anchor="middle" fill="#4db6ac" font-family="Consolas, monospace" font-size="10">Redes</text>
+  <!-- row 3 -->
+  <rect x="24" y="126" width="108" height="26" rx="13" fill="#ee312426" stroke="#ee3124"/>
+  <text x="78" y="143" text-anchor="middle" fill="#ff6b6b" font-family="Consolas, monospace" font-size="10">Firewalls ACLs</text>
+  <rect x="140" y="126" width="78" height="26" rx="13" fill="#ee312426" stroke="#ee3124"/>
+  <text x="179" y="143" text-anchor="middle" fill="#ff6b6b" font-family="Consolas, monospace" font-size="10">Fortinet</text>
+  <rect x="226" y="126" width="78" height="26" rx="13" fill="#e34c2626" stroke="#e34c26"/>
+  <text x="265" y="143" text-anchor="middle" fill="#f06529" font-family="Consolas, monospace" font-size="10">HTML5</text>
+  <rect x="312" y="126" width="68" height="26" rx="13" fill="#264de426" stroke="#264de4"/>
+  <text x="346" y="143" text-anchor="middle" fill="#5383ec" font-family="Consolas, monospace" font-size="10">CSS3</text>
+  <rect x="388" y="126" width="72" height="26" rx="13" fill="#00808026" stroke="#008080"/>
+  <text x="424" y="143" text-anchor="middle" fill="#4db6ac" font-family="Consolas, monospace" font-size="10">SQLite</text>
+  <rect x="468" y="126" width="72" height="26" rx="13" fill="#4479a126" stroke="#4479a1"/>
+  <text x="504" y="143" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="10">MySQL</text>
+  <rect x="548" y="126" width="78" height="26" rx="13" fill="#3776ab26" stroke="#3776ab"/>
+  <text x="587" y="143" text-anchor="middle" fill="#79b8ff" font-family="Consolas, monospace" font-size="10">Python</text>
+  <rect x="634" y="126" width="72" height="26" rx="13" fill="#4285f426" stroke="#4285f4"/>
+  <text x="670" y="143" text-anchor="middle" fill="#90caf9" font-family="Consolas, monospace" font-size="10">GCP</text>
+  <!-- row 4 -->
+  <rect x="24" y="160" width="98" height="26" rx="13" fill="#6366f126" stroke="#6366f1"/>
+  <text x="73" y="177" text-anchor="middle" fill="#a5b4fc" font-family="Consolas, monospace" font-size="10">REST APIs</text>
+  <rect x="130" y="160" width="88" height="26" rx="13" fill="#6366f126" stroke="#6366f1"/>
+  <text x="174" y="177" text-anchor="middle" fill="#a5b4fc" font-family="Consolas, monospace" font-size="10">Helpdesk</text>
+  <rect x="226" y="160" width="108" height="26" rx="13" fill="#6366f126" stroke="#6366f1"/>
+  <text x="280" y="177" text-anchor="middle" fill="#a5b4fc" font-family="Consolas, monospace" font-size="10">Suporte Tecnico</text>
 </svg>

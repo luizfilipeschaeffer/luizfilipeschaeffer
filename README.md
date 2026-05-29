@@ -6,7 +6,7 @@
 <br/><br/>
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=1200&color=6366F1&center=true&vCenter=true&width=580&lines=Mobile+com+Flutter+%26+Firebase;Web+com+HTML%2C+CSS+%26+React;Suporte+t%C3%A9cnico+%26+infraestrutura;Construindo+o+caminho+Fullstack" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=1200&color=6366F1&center=true&vCenter=true&width=620&lines=Mobile+com+Flutter+%26+Firebase;Web+com+Next.js%2C+React+%26+PostgreSQL;Infra%3A+Windows+Server%2C+AD+%26+Firewalls;Redes%2C+VMs+e+suporte+empresarial" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -22,7 +22,7 @@
 
 <!-- Stats: CSS Grid via SVG -->
 <div align="center">
-  <img src="assets/stats-grid.svg" width="100%" alt="Estatísticas — 8+ anos, 5 empresas, 6 certificações, 25+ tecnologias"/>
+  <img src="assets/stats-grid.svg" width="100%" alt="Estatísticas — 8+ anos, 5 empresas, 6 certificações, 30+ tecnologias"/>
 </div>
 
 <br/>
@@ -35,14 +35,16 @@
 <tr>
 <td width="55%" valign="top">
 
-Sou um profissional apaixonado por tecnologia, com **8+ anos** de experiência em suporte técnico e desenvolvimento. Especializado em **Flutter** — do conceito ao deploy — e em constante evolução rumo ao **fullstack**.
+Sou um profissional apaixonado por tecnologia, com **8+ anos** de experiência em suporte técnico, infraestrutura e desenvolvimento. Especializado em **Flutter** — do conceito ao deploy — e com sólida base em **redes, Windows Server, Active Directory e firewalls**.
 
 <br/>
 
 **Atualmente:**
 <ul>
   <li>📱 Desenvolvimento mobile com <kbd>Flutter</kbd> + <kbd>Firebase</kbd></li>
-  <li>🌐 Interfaces web com <kbd>HTML</kbd> · <kbd>CSS</kbd> · <kbd>React</kbd></li>
+  <li>🌐 Web com <kbd>Next.js</kbd> · <kbd>React</kbd> · <kbd>PostgreSQL</kbd></li>
+  <li>🖥️ Infra: <kbd>Windows Server</kbd> · <kbd>Active Directory</kbd> · virtualização de VMs</li>
+  <li>🔒 Redes e segurança: gestão de redes, <kbd>Firewalls</kbd> e <kbd>ACLs</kbd> (Fortinet NSE 4)</li>
   <li>🔧 Análise e suporte de sistemas empresariais</li>
 </ul>
 
@@ -56,8 +58,10 @@ class LuizFilipeSchaeffer {
   final int experience = 8;
 
   List<String> stack = [
-    "Flutter", "Dart", "HTML/CSS",
-    "React", "Node.js", "Firebase",
+    "Flutter", "Dart", "Next.js", "React",
+    "PostgreSQL", "Node.js", "Firebase",
+    "Windows Server", "Active Directory",
+    "Redes", "Firewalls/ACLs", "Virtualizacao",
   ];
 }
 ```
@@ -79,13 +83,21 @@ class LuizFilipeSchaeffer {
 <br/>
 
 <div align="center">
-  <img src="assets/tech-cloud.svg" width="100%" alt="Nuvem de tecnologias"/>
+  <img src="assets/tech-cloud.svg" width="100%" alt="Nuvem de tecnologias — dev, dados, infra, redes e segurança"/>
+</div>
+
+<br/>
+
+## 🖥️ Infra, Redes & Segurança
+
+<div align="center">
+  <img src="assets/infra-skills.svg" width="100%" alt="Infra — PostgreSQL, VMs, Redes, Windows Server, Active Directory, Firewalls ACLs"/>
 </div>
 
 <br/>
 
 <details>
-<summary><b>📱 Ver stack Mobile, Backend &amp; Infra</b></summary>
+<summary><b>📱 Ver stack Mobile, Backend &amp; Banco de Dados</b></summary>
 <br/>
 
 <table>
@@ -99,9 +111,9 @@ class LuizFilipeSchaeffer {
 </td>
 <td width="50%" valign="top">
 
-**Backend & Cloud**
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,aws,gcp,docker,git" /><br/>
-<code>REST 70%</code> · <code>Node.js 65%</code> · <code>AWS 70%</code> · <code>Docker 60%</code>
+**Web & Backend**
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,ts,nodejs,express" /><br/>
+<code>Next.js 65%</code> · <code>React 70%</code> · <code>REST 70%</code> · <code>Node.js 65%</code>
 
 </td>
 </tr>
@@ -109,15 +121,24 @@ class LuizFilipeSchaeffer {
 <td valign="top">
 
 **Banco de Dados**
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" /><br/>
-<code>SQLite 85%</code> · <code>MySQL 75%</code> · <code>PostgreSQL 70%</code>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite" /><br/>
+<code>PostgreSQL 70%</code> · <code>SQLite 85%</code> · <code>MySQL 75%</code> · <code>MongoDB 60%</code>
 
 </td>
 <td valign="top">
 
-**Suporte & Infra**
+**Cloud & DevOps**
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github" /><br/>
+<code>AWS 70%</code> · <code>Git/GitHub 80%</code> · <code>Docker 60%</code> · <code>CI/CD 65%</code>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**Infra, Redes & Segurança**
 <br/>
-<code>Suporte 95%</code> · <code>Helpdesk 90%</code> · <code>Servidores 85%</code> · <code>Redes 80%</code>
+<code>Virtualizacao VMs 85%</code> · <code>Windows Server 85%</code> · <code>Active Directory 80%</code> · <code>Gestao de Redes 80%</code> · <code>Firewalls &amp; ACLs 75%</code> · <code>Fortinet NSE 4</code> · <code>Suporte Tecnico 95%</code> · <code>Helpdesk 90%</code>
 
 </td>
 </tr>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Infra Redes e Seguranca">
+  <defs>
+    <linearGradient id="pgBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#336791"/><stop offset="1" stop-color="#4a9fd4"/></linearGradient>
+    <linearGradient id="vmBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#607d8b"/><stop offset="1" stop-color="#90a4ae"/></linearGradient>
+    <linearGradient id="netBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00897b"/><stop offset="1" stop-color="#26a69a"/></linearGradient>
+    <linearGradient id="winBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0078d4"/><stop offset="1" stop-color="#50a0e8"/></linearGradient>
+    <linearGradient id="adBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#005a9e"/><stop offset="1" stop-color="#0078d4"/></linearGradient>
+    <linearGradient id="fwBar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ee3124"/><stop offset="1" stop-color="#ff6b6b"/></linearGradient>
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0078d4"/><stop offset="1" stop-color="#ee3124"/></linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="24" y="24" width="40" height="40" rx="10" fill="url(#iconGrad)"/>
+  <text x="44" y="50" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="16" font-weight="800">INF</text>
+  <text x="80" y="42" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700">Infra, Redes &amp; Seguranca</text>
+  <text x="80" y="60" fill="#8b949e" font-family="Segoe UI, system-ui, sans-serif" font-size="11">PostgreSQL | VMs | Redes | Windows Server | AD | Firewalls &amp; ACLs</text>
+  <line x1="24" y1="78" x2="776" y2="78" stroke="#21262d"/>
+  <!-- PostgreSQL 70% -->
+  <text x="120" y="108" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">PostgreSQL</text>
+  <rect x="132" y="98" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="98" width="406" height="10" rx="5" fill="url(#pgBar)"/>
+  <text x="724" y="108" fill="#8b949e" font-family="Consolas, monospace" font-size="11">70%</text>
+  <!-- Virtualizacao 85% -->
+  <text x="120" y="138" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">VMs</text>
+  <rect x="132" y="128" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="128" width="493" height="10" rx="5" fill="url(#vmBar)"/>
+  <text x="724" y="138" fill="#8b949e" font-family="Consolas, monospace" font-size="11">85%</text>
+  <!-- Redes 80% -->
+  <text x="120" y="168" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">Redes</text>
+  <rect x="132" y="158" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="158" width="464" height="10" rx="5" fill="url(#netBar)"/>
+  <text x="724" y="168" fill="#8b949e" font-family="Consolas, monospace" font-size="11">80%</text>
+  <!-- Windows Server 85% -->
+  <text x="120" y="198" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">Win Server</text>
+  <rect x="132" y="188" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="188" width="493" height="10" rx="5" fill="url(#winBar)"/>
+  <text x="724" y="198" fill="#8b949e" font-family="Consolas, monospace" font-size="11">85%</text>
+  <!-- Active Directory 80% -->
+  <text x="120" y="228" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">Active Dir.</text>
+  <rect x="132" y="218" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="218" width="464" height="10" rx="5" fill="url(#adBar)"/>
+  <text x="724" y="228" fill="#8b949e" font-family="Consolas, monospace" font-size="11">80%</text>
+  <!-- Firewalls ACLs 75% -->
+  <text x="120" y="258" text-anchor="end" fill="#c9d1d9" font-family="Consolas, monospace" font-size="12">Firewalls</text>
+  <rect x="132" y="248" width="580" height="10" rx="5" fill="#21262d"/>
+  <rect x="132" y="248" width="435" height="10" rx="5" fill="url(#fwBar)"/>
+  <text x="724" y="258" fill="#8b949e" font-family="Consolas, monospace" font-size="11">75%</text>
+  <!-- badges -->
+  <rect x="24" y="278" width="752" height="28" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="400" y="296" text-anchor="middle" fill="#8b949e" font-family="Consolas, monospace" font-size="10">Hyper-V / VMware | VLANs &amp; DNS/DHCP | GPO | Fortinet NSE 4 | ACLs &amp; Politicas</text>
+</svg>
