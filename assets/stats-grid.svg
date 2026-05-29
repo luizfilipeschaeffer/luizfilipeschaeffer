@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 12px;
+          width: 100%;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .card {
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          padding: 16px 12px;
+          text-align: center;
+          transition: border-color 0.2s;
+        }
+        .card:hover { border-color: #6366f1; }
+        .icon { font-size: 22px; margin-bottom: 6px; }
+        .number {
+          font-size: 26px;
+          font-weight: 800;
+          background: linear-gradient(135deg, #818cf8, #a78bfa);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          line-height: 1;
+        }
+        .label {
+          font-size: 11px;
+          color: #8b949e;
+          margin-top: 4px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+        @media (prefers-color-scheme: light) {
+          .card { background: #f6f8fa; border-color: #d0d7de; }
+          .label { color: #656d76; }
+        }
+      </style>
+      <div class="grid">
+        <div class="card"><div class="icon">=�</div><div class="number">8+</div><div class="label">Anos Exp.</div></div>
+        <div class="card"><div class="icon"><�</div><div class="number">5</div><div class="label">Empresas</div></div>
+        <div class="card"><div class="icon"><�</div><div class="number">6</div><div class="label">Certifica��es</div></div>
+        <div class="card"><div class="icon">=�</div><div class="number">25+</div><div class="label">Tecnologias</div></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

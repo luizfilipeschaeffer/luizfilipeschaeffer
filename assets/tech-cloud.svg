@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .panel {
+          width: 100%;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 16px;
+          padding: 24px;
+        }
+        .header {
+          color: #f0f6fc;
+          font-size: 16px;
+          font-weight: 700;
+          margin-bottom: 16px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .cloud {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .chip {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          border-radius: 999px;
+          font-size: 12px;
+          font-weight: 600;
+          border: 1px solid;
+          font-family: "Fira Code", monospace;
+        }
+        .flutter { background: rgba(2,119,189,0.15); border-color: #0277bd; color: #4fc3f7; }
+        .dart    { background: rgba(0,180,216,0.15); border-color: #00b4d8; color: #90e0ef; }
+        .html    { background: rgba(227,76,38,0.15);  border-color: #e34c26; color: #f06529; }
+        .css     { background: rgba(38,77,228,0.15);  border-color: #264de4; color: #5383ec; }
+        .js      { background: rgba(247,223,30,0.12);  border-color: #f7df1e; color: #f0db4f; }
+        .react   { background: rgba(97,218,251,0.12);  border-color: #61dafb; color: #61dafb; }
+        .node    { background: rgba(51,153,51,0.15);  border-color: #339933; color: #6fcf6f; }
+        .aws     { background: rgba(255,153,0,0.12);  border-color: #ff9900; color: #ffb84d; }
+        .firebase{ background: rgba(255,202,40,0.12); border-color: #ffca28; color: #ffd54f; }
+        .sqlite  { background: rgba(0,128,128,0.15);  border-color: #008080; color: #4db6ac; }
+        .docker  { background: rgba(36,150,237,0.15);  border-color: #2496ed; color: #64b5f6; }
+        .git     { background: rgba(240,80,51,0.12);   border-color: #f05033; color: #ff8a65; }
+        .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+        @media (prefers-color-scheme: light) {
+          .panel { background: #ffffff; border-color: #d0d7de; }
+          .header { color: #1f2328; }
+        }
+      </style>
+      <div class="panel">
+        <div class="header"><� Tech Stack</div>
+        <div class="cloud">
+          <span class="chip flutter"><span class="dot"></span>Flutter</span>
+          <span class="chip dart"><span class="dot"></span>Dart</span>
+          <span class="chip html"><span class="dot"></span>HTML5</span>
+          <span class="chip css"><span class="dot"></span>CSS3</span>
+          <span class="chip js"><span class="dot"></span>JavaScript</span>
+          <span class="chip react"><span class="dot"></span>React</span>
+          <span class="chip node"><span class="dot"></span>Node.js</span>
+          <span class="chip aws"><span class="dot"></span>AWS</span>
+          <span class="chip firebase"><span class="dot"></span>Firebase</span>
+          <span class="chip sqlite"><span class="dot"></span>SQLite</span>
+          <span class="chip docker"><span class="dot"></span>Docker</span>
+          <span class="chip git"><span class="dot"></span>Git</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
