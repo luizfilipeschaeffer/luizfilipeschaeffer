@@ -1,52 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        .grid {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          gap: 12px;
-          width: 100%;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-        .card {
-          background: #161b22;
-          border: 1px solid #30363d;
-          border-radius: 12px;
-          padding: 16px 12px;
-          text-align: center;
-          transition: border-color 0.2s;
-        }
-        .card:hover { border-color: #6366f1; }
-        .icon { font-size: 22px; margin-bottom: 6px; }
-        .number {
-          font-size: 26px;
-          font-weight: 800;
-          background: linear-gradient(135deg, #818cf8, #a78bfa);
-          -webkit-background-clip: text;
-          background-clip: text;
-          color: transparent;
-          line-height: 1;
-        }
-        .label {
-          font-size: 11px;
-          color: #8b949e;
-          margin-top: 4px;
-          text-transform: uppercase;
-          letter-spacing: 0.5px;
-        }
-        @media (prefers-color-scheme: light) {
-          .card { background: #f6f8fa; border-color: #d0d7de; }
-          .label { color: #656d76; }
-        }
-      </style>
-      <div class="grid">
-        <div class="card"><div class="icon">=�</div><div class="number">8+</div><div class="label">Anos Exp.</div></div>
-        <div class="card"><div class="icon"><�</div><div class="number">5</div><div class="label">Empresas</div></div>
-        <div class="card"><div class="icon"><�</div><div class="number">6</div><div class="label">Certifica��es</div></div>
-        <div class="card"><div class="icon">=�</div><div class="number">25+</div><div class="label">Tecnologias</div></div>
-      </div>
-    </div>
-  </foreignObject>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="Estatisticas">
+  <defs>
+    <linearGradient id="numGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <g transform="translate(0,0)">
+      <rect width="188" height="100" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="94" y="38" text-anchor="middle" font-size="22">&#x1F680;</text>
+      <text x="94" y="68" text-anchor="middle" fill="url(#numGrad)" font-size="26" font-weight="800">8+</text>
+      <text x="94" y="88" text-anchor="middle" fill="#8b949e" font-size="10" letter-spacing="1">ANOS EXP.</text>
+    </g>
+    <g transform="translate(204,0)">
+      <rect width="188" height="100" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="94" y="38" text-anchor="middle" font-size="22">&#x1F3E2;</text>
+      <text x="94" y="68" text-anchor="middle" fill="url(#numGrad)" font-size="26" font-weight="800">5</text>
+      <text x="94" y="88" text-anchor="middle" fill="#8b949e" font-size="10" letter-spacing="1">EMPRESAS</text>
+    </g>
+    <g transform="translate(408,0)">
+      <rect width="188" height="100" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="94" y="38" text-anchor="middle" font-size="22">&#x1F393;</text>
+      <text x="94" y="68" text-anchor="middle" fill="url(#numGrad)" font-size="26" font-weight="800">6</text>
+      <text x="94" y="88" text-anchor="middle" fill="#8b949e" font-size="10" letter-spacing="1">CERTIFICACOES</text>
+    </g>
+    <g transform="translate(612,0)">
+      <rect width="188" height="100" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="94" y="38" text-anchor="middle" font-size="22">&#x1F6E0;</text>
+      <text x="94" y="68" text-anchor="middle" fill="url(#numGrad)" font-size="26" font-weight="800">25+</text>
+      <text x="94" y="88" text-anchor="middle" fill="#8b949e" font-size="10" letter-spacing="1">TECNOLOGIAS</text>
+    </g>
+  </g>
 </svg>

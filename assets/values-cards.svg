@@ -1,59 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        .cards {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 12px;
-          width: 100%;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-        .card {
-          background: #161b22;
-          border: 1px solid #30363d;
-          border-radius: 14px;
-          padding: 20px 16px;
-          text-align: center;
-          position: relative;
-          overflow: hidden;
-        }
-        .card::after {
-          content: "";
-          position: absolute;
-          top: 0; left: 0; right: 0;
-          height: 3px;
-        }
-        .card:nth-child(1)::after { background: linear-gradient(90deg, #6366f1, #818cf8); }
-        .card:nth-child(2)::after { background: linear-gradient(90deg, #10b981, #34d399); }
-        .card:nth-child(3)::after { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
-        .emoji { font-size: 28px; margin-bottom: 8px; }
-        .title { color: #f0f6fc; font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-        .desc { color: #8b949e; font-size: 11px; line-height: 1.5; }
-        @media (prefers-color-scheme: light) {
-          .card { background: #f6f8fa; border-color: #d0d7de; }
-          .title { color: #1f2328; }
-          .desc { color: #656d76; }
-        }
-      </style>
-      <div class="cards">
-        <div class="card">
-          <div class="emoji"><�</div>
-          <div class="title">Foco em Resultados</div>
-          <div class="desc">Entregas no prazo com qualidade excepcional</div>
-        </div>
-        <div class="card">
-          <div class="emoji">></div>
-          <div class="title">Trabalho em Equipe</div>
-          <div class="desc">Comunica��o clara e colabora��o efetiva</div>
-        </div>
-        <div class="card">
-          <div class="emoji">=�</div>
-          <div class="title">Inova��o Constante</div>
-          <div class="desc">Sempre buscando as melhores tecnologias</div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140" role="img" aria-label="Valores">
+  <defs>
+    <linearGradient id="top1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <linearGradient id="top2" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#10b981"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <linearGradient id="top3" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+  </defs>
+  <!-- Card 1 -->
+  <rect x="0" y="0" width="256" height="130" rx="14" fill="#161b22" stroke="#30363d"/>
+  <rect x="0" y="0" width="256" height="3" rx="1" fill="url(#top1)"/>
+  <text x="128" y="44" text-anchor="middle" font-size="26">&#x1F3AF;</text>
+  <text x="128" y="72" text-anchor="middle" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700">Foco em Resultados</text>
+  <text x="128" y="94" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, system-ui, sans-serif" font-size="11">Entregas no prazo com qualidade</text>
+  <!-- Card 2 -->
+  <rect x="272" y="0" width="256" height="130" rx="14" fill="#161b22" stroke="#30363d"/>
+  <rect x="272" y="0" width="256" height="3" rx="1" fill="url(#top2)"/>
+  <text x="400" y="44" text-anchor="middle" font-size="26">&#x1F91D;</text>
+  <text x="400" y="72" text-anchor="middle" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700">Trabalho em Equipe</text>
+  <text x="400" y="94" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, system-ui, sans-serif" font-size="11">Comunicacao clara e colaboracao</text>
+  <!-- Card 3 -->
+  <rect x="544" y="0" width="256" height="130" rx="14" fill="#161b22" stroke="#30363d"/>
+  <rect x="544" y="0" width="256" height="3" rx="1" fill="url(#top3)"/>
+  <text x="672" y="44" text-anchor="middle" font-size="26">&#x1F4A1;</text>
+  <text x="672" y="72" text-anchor="middle" fill="#f0f6fc" font-family="Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700">Inovacao Constante</text>
+  <text x="672" y="94" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, system-ui, sans-serif" font-size="11">Melhores tecnologias e praticas</text>
 </svg>

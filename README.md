@@ -1,7 +1,7 @@
-<!-- Hero: HTML + CSS embutido via SVG foreignObject -->
+<!-- Hero: SVG nativo (compatível com GitHub) -->
 <div align="center">
 
-<img src="./assets/hero-banner.svg" width="100%" alt="Luiz Filipe Schaeffer — Desenvolvedor Mobile Flutter" />
+<img src="assets/hero-banner.svg" width="100%" alt="Luiz Filipe Schaeffer — Desenvolvedor Mobile Flutter" />
 
 <br/><br/>
 
@@ -22,7 +22,7 @@
 
 <!-- Stats: CSS Grid via SVG -->
 <div align="center">
-  <img src="./assets/stats-grid.svg" width="100%" alt="Estatísticas — 8+ anos, 5 empresas, 6 certificações, 25+ tecnologias"/>
+  <img src="assets/stats-grid.svg" width="100%" alt="Estatísticas — 8+ anos, 5 empresas, 6 certificações, 25+ tecnologias"/>
 </div>
 
 <br/>
@@ -70,17 +70,16 @@ class LuizFilipeSchaeffer {
 
 ## 🌐 Web & Frontend — HTML · CSS · JS
 
-> Esta seção usa **HTML + CSS real** embutido em SVG via `foreignObject` — com flexbox, gradientes, animações e suporte a **dark/light mode**.
+> Barras de progresso e chips renderizados em **SVG nativo** — compatível com o GitHub (sem `foreignObject`).
 
 <div align="center">
-  <img src="./assets/web-skills.svg" width="100%" alt="Habilidades Web — HTML, CSS, JavaScript, React, Next.js, TypeScript"/>
+  <img src="assets/web-skills.svg" width="100%" alt="Habilidades Web — HTML, CSS, JavaScript, React, Next.js, TypeScript"/>
 </div>
 
 <br/>
 
-<!-- Tech cloud: chips estilizados com CSS -->
 <div align="center">
-  <img src="./assets/tech-cloud.svg" width="100%" alt="Nuvem de tecnologias"/>
+  <img src="assets/tech-cloud.svg" width="100%" alt="Nuvem de tecnologias"/>
 </div>
 
 <br/>
@@ -224,7 +223,7 @@ timeline
 
 <!-- Cards com CSS Grid + gradient top border -->
 <div align="center">
-  <img src="./assets/values-cards.svg" width="100%" alt="Valores — Foco, Equipe, Inovação"/>
+  <img src="assets/values-cards.svg" width="100%" alt="Valores — Foco, Equipe, Inovação"/>
 </div>
 
 ---
@@ -262,7 +261,7 @@ timeline
 <!-- CTA com flexbox + gradiente via SVG -->
 <div align="center">
   <a href="https://luizfilipeschaeffer.dev/">
-    <img src="./assets/contact-cta.svg" width="100%" alt="Vamos trabalhar juntos — Portfolio e Email"/>
+    <img src="assets/contact-cta.svg" width="100%" alt="Vamos trabalhar juntos — Portfolio e Email"/>
   </a>
 </div>
 
@@ -293,20 +292,3 @@ timeline
 
 </div>
 
-<!-- ─────────────────────────────────────────────
-  🎨 Como funciona o HTML/CSS neste README:
-
-  O GitHub bloqueia CSS inline e <style> no Markdown,
-  mas permite HTML+CSS dentro de arquivos SVG via
-  <foreignObject> — a mesma técnica usada em:
-  https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/
-
-  Recursos usados:
-  • Flexbox & CSS Grid
-  • Gradientes animados (@keyframes)
-  • prefers-color-scheme (dark/light)
-  • prefers-reduced-motion (acessibilidade)
-  • <details> / <summary> (HTML nativo GitHub)
-  • <picture> com media queries
-  • <kbd>, <table>, <blockquote>
-───────────────────────────────────────────── -->
